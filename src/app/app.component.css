@@ -72,16 +72,7 @@ body
   font-size: 2em;
   color: #773a2c;
 }
-  /* Bottom left text */
-  .bottom-left 
-  {
-    position: absolute;
-    width: 20%;
-    height: 20%;
-    bottom: 8px;
-    left: 16px;
-    background-repeat:no-repeat ;
-  }
+
   
   /* Top left text */
   .top-left {
@@ -91,31 +82,10 @@ body
     width: 40%;
     height: 40%;
     background-image: url("../assets/images/image.png");
-    z-index: 0.7;
+    z-index: 2;
     background-repeat:no-repeat ;
   }
   
-  /* Top right text */
-  .top-right {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-  }
-  
-  /* Bottom right text */
-  .bottom-right {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-  }
-  
-  /* Centered text */
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
 
 
   /*....................................... 
