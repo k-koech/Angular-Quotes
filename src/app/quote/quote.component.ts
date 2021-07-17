@@ -10,8 +10,8 @@ export class QuoteComponent{
   maxUpvote: number = 0;
   
   quotes:Quote[] = [
-    new Quote(1,'The greatest glory in living lies not in never falling, but in rising every time we fall.','Nelson Mandela', 'Kelvin',new Date(2021,6,13),0,0),
-    new Quote(2,'The way to get started is to quit talking and begin doing.','Walt Disney', 'Mercy',new Date(2017,1,24),0,0),
+    new Quote(1,"Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking","Steve Jobs", 'Kelvin',new Date(2021,6,13),0,0),
+    new Quote(2,'Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that','Martin Luther King,', 'Sharon',new Date(2020,1,24),0,0),
   ];
    
   
