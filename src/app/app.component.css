@@ -32,7 +32,10 @@ body
 }
 .landing-container .first-col .btn
 {
- 
+  margin-top: 1em;
+ background-color: rgb(88, 42, 42) !important;
+  border: none;
+ font-size: 1.4em;
 }
 .landing-container .first-col .landing-quote
 {
