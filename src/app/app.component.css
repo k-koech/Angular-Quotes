@@ -63,6 +63,8 @@ body
 }
 .navbar-brand
 {
+  z-index: 1000;
+  background-color: rgb(255, 255, 255);
   font-size: 1.5em !important;
 }
 .navbar-brand i
@@ -71,10 +73,14 @@ body
   color: #773a2c;
 }
   /* Bottom left text */
-  .bottom-left {
+  .bottom-left 
+  {
     position: absolute;
+    width: 20%;
+    height: 20%;
     bottom: 8px;
     left: 16px;
+    background-repeat:no-repeat ;
   }
   
   /* Top left text */
@@ -82,6 +88,11 @@ body
     position: absolute;
     top: 8px;
     left: 16px;
+    width: 40%;
+    height: 40%;
+    background-image: url("../assets/images/image.png");
+    z-index: 0.7;
+    background-repeat:no-repeat ;
   }
   
   /* Top right text */
