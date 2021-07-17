@@ -1,0 +1,189 @@
+body
+{
+    margin: 0;
+    padding: 0; 
+}
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    color: white;
+}
+
+.header
+{
+    /* position: absolute; */
+    justify-content: end !important;
+
+}
+
+.navbar a
+{
+  text-decoration: none;
+  color: #000;
+}
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  /*....................................... 
+       FOOTER   
+......................................... */
+#footer
+{
+	background-image: linear-gradient(to right,#180909, #0c0402); 
+	color:#fff;
+}
+.footer-box #map {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(214, 210, 206);
+  }
+.footer-img
+{
+	width: 100%;
+}
+.footer-box
+{
+	padding: 20px;
+}
+.footer-box img
+{
+	width: 120px;margin-bottom: 20px;
+}
+
+.footer-box i 
+{
+ margin-right: 8px;
+ font-size: 25px;
+ height: 40px;
+ width: 40px;text-align: center;
+ border-radius: 2px;
+ padding-top: 7px;
+ background-image: linear-gradient(to right,#5c5c5c, #1b1b1b);
+}
+.footer-box .form-control
+{
+	box-shadow: none !important;
+	border:none;
+	border-radius: 0;
+	max-width: 250px;
+	margin-top: 25px;
+}
+.footer-box .btn-dark
+{
+box-shadow: none !important;
+	border:none;
+	border-radius: 0;
+	margin-top: 30px;
+}
+.copyright
+{
+	padding-bottom: 3em;
+    margin-bottom: 0;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#footer h4
+{
+    font-size: 1.3em;
+   text-align: center;
+   padding: 1%;
+}
+
+#footer #social-media
+{
+    text-align: center;
+    margin: 1em;
+}
+#footer #social-media a
+{
+    padding: 2%;
+    color: white;
+}
+#footer #social-media a:hover
+{
+    color: #773a2c;
+}
+#footer #social-media i
+{
+    font-size: larger;
+} 
+
+#footer .float
+{
+	position:fixed;
+	width:50px;
+	height:50px;
+	bottom:40px;
+	right:3%;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+    display: flex;
+}
+#footer a
+{
+   text-decoration: none;
+}
+#footer .my-float{
+	margin:auto;
+    font-size: 1.2em;
+}
+#footer .backToTop 
+{
+    position:fixed;
+	width:50px;
+	height:50px;
+	bottom:40px;
+	right:10%;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+    display: flex;
+}
+#footer .backToTop .toTop
+{
+	margin:auto;
+    font-size: 1.2em;
+}
+
+
+    
