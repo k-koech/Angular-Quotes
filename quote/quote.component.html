@@ -1,0 +1,36 @@
+<div class=" container ">
+    <div class="row">
+        <div class="col-md-4 col-sm-12">
+                  <app-form (addQuote)="addNewQuote($event)"></app-form>
+        </div>
+        <div class="quoteList col-md-8 col-sm-12">
+            <h5 class="text-center">Uploaded Quotes</h5>
+            <hr> 
+            <div class="quoteSection"  *ngFor='let quote of quotes;let i = index'>
+                 <div class="row">
+                    <div class="col-3">
+                        <span>Vote</span>
+                        <div ><i  class="fa fa-caret-up text-success" (click)="upVote(i)" aria-hidden="true"></i></div>
+                        <strong >{{quote.upvotes}}</strong><br>
+                        <strong>{{quote.downvotes}}</strong>
+                        <div><i (click)="downVote(i)"   class="fa fa-caret-down text-danger" aria-hidden="true"></i></div>
+                    </div>
+                     
+                    <div class="col-9">
+                        <b *ngIf="quotes[i].upvotes===maxUpvote && quotes[i].upvotes>0; else elseTemplate"
+                         appHighlight ><i class="fa fa-quote-left" aria-hidden="true"></i> 
+                          {{quote.quote}} 
+                        <i class="fa fa-quote-right" aria-hidden="true"></i></b>
+                        <ng-template #elseTemplate>
+                            <b><i class="fa fa-quote-left" aria-hidden="true"></i> 
+                            {{quote.quote}} 
+                            <i class="fa fa-quote-right" aria-hidden="true"></i></b>
+                        </ng-template>
+                    </div>
+                     
+               </div>
+                <app-quote-details [quotesFromChild]='quote' ></app-quote-details>
+                              
+            </div>
+        </div>
+    </div>
