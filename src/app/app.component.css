@@ -4,10 +4,12 @@ body
     padding: 0; 
 }
 /* Container holding the image and the text */
-.container {
+.container-fluid {
     position: relative;
     color: white;
+    height: 100vh !important;
 }
+
 .landing-container
 {
   height: 80vh;
@@ -49,9 +51,8 @@ body
 }
 .header
 {
-    /* position: absolute; */
-    justify-content: end !important;
-}
+    
+display: block;}
 
 .navbar a
 {
