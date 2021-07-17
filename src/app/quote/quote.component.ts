@@ -8,24 +8,6 @@ import { Quote } from '../quote';
 })
 export class QuoteComponent{
   maxUpvote: number = 0;
-  myA =  [
-    {
-      "x": "8/11/2009",
-      "y": 10
-    },
-    {
-      "x": "8/12/2009",
-      "y": 70
-    },
-    {
-      "x": "8/13/2009",
-      "y": 98
-    },
-    {
-      "x": "8/14/2009",
-      "y": 10
-    }
-  ];
   
   quotes:Quote[] = [
     new Quote(1,'The greatest glory in living lies not in never falling, but in rising every time we fall.','Nelson Mandela', 'Kelvin',new Date(2021,6,13),0,0),
@@ -34,7 +16,6 @@ export class QuoteComponent{
     new Quote(4,'Whoever is happy will make others happy too.','Anne Frank', 'Joel',new Date(2021,1,9),0,0),
   ];
    
-
   
   addNewQuote(quote: Quote)
   {

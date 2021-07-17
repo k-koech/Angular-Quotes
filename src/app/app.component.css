@@ -8,12 +8,47 @@ body
     position: relative;
     color: white;
 }
-
+.landing-container
+{
+  height: 80vh;
+  background-color: #ffffff;
+}
+.landing-container .first-col
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.landing-container .first-col .quoteDiv
+{
+  margin-left: 4em;
+}
+.landing-container .first-col .quoteDiv .quote-author
+{
+  margin-left: 1em;
+  font-size: 1.4em;
+  font-style: italic;
+}
+.landing-container .first-col .btn
+{
+ 
+}
+.landing-container .first-col .landing-quote
+{
+  font-size: 2em;
+  /* background-color: rgb(187, 140, 140); */
+  margin-top: 2em;
+  font-weight: 800;
+}
+.landing-container .first-col .fa
+{
+  font-size: 2em;
+}
 .header
 {
     /* position: absolute; */
     justify-content: end !important;
-
 }
 
 .navbar a
