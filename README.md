@@ -2,7 +2,7 @@
 #### The app is about uploading quotes and viewing them, 17/07/2021
 #### **By Kelvin Kipchumba**
 ## Project Description
-    This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
+    This project was generated with Angular CLI version 12.1.1.
     The application includes a  landing page which shows the popular Quote by Mandela and a footer with contact details. 
     There is also a a form to upload your quotes and also view them. 
     You can also upvote and downvote a quote.
