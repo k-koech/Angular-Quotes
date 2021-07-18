@@ -33,12 +33,18 @@ export class QuoteComponent{
     this.quotes[index].upvotes = this.quotes[index].upvotes+1;
 
     this.maxUpvote = Math.max.apply(Math, this.quotes.map(function(o) { return o.upvotes; }));
-
-    console.log( Math.max.apply(Math, this.quotes.map(function(o) 
-   { 
-     return o.upvotes; 
-   })) )
+    
   }
 
+  deleteQuote(isDelete: any, index: number){
+    if (isDelete) 
+    {
+      let toDelete = confirm(`Are you sure you want to delete ${this.quotes[index].quote}?`)
+
+      if (toDelete){
+        this.quotes.splice(index,1)
+      }
+    }
+  }
 
 }

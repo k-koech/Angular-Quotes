@@ -29,7 +29,7 @@
                     </div>
                      
                </div>
-                <app-quote-details [quotesFromChild]='quote' ></app-quote-details>
+                <app-quote-details [quotesFromChild]='quote' (delete) = 'deleteQuote($event,i)'></app-quote-details>
                               
             </div>
         </div>
