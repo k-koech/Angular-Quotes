@@ -24,7 +24,7 @@ The application has no backend. Just frontend.
     - See the number of upvotes and number of downvotes for each quote.
 
 ## Live link
-    Deployed project can be accessed here - [Angular Quotes](https://k-koech.github.io/Angular-Quotes/)
+    Deployed project can be accessed here [Angular Quotes](https://k-koech.github.io/Angular-Quotes/)
 
 ## Known Bugs
 The application works perfectly well, no bugs.
