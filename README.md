@@ -9,11 +9,11 @@ You can also upvote and downvote a quote.
 The quote with the highest upvotes is highlighted.
 
 ## Setup/Installation Requirements
-* Download a file in the code section to the desired folder
-* Extract the files
-* Open the folder with terminal and type ng-serve.
-* Open the link after it has finished compiling it successfully.
-* And you are all done
+    - Download a file in the code section to the desired folder
+    - Extract the files
+    - Open the folder with terminal and type ng-serve.
+    - Open the link after it has finished compiling it successfully.
+    - And you are all done
 The application has no backend. Just frontend.
 
 ## BDD
@@ -36,10 +36,10 @@ The application works perfectly well, no bugs.
     - Angular
 
 ## Support and contact details
-email :: koechkelvin97@gmail.com
-phone :: +254725801772
+    - email :: koechkelvin97@gmail.com
+    - phone :: +254725801772
 
 ### License
-*LIcenced under the [MT-licence](https://github.com/k-koech/Angular-Quotes/blob/master/LICENSE.md)*
+*Licenced under the [MT-licence](https://github.com/k-koech/Angular-Quotes/blob/master/LICENSE.md)*
 Copyright (c) 2021 **Kelvin Kipchumba
 
